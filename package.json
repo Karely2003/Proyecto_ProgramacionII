@@ -1,0 +1,30 @@
+{
+  "name": "proyecto_programacionii",
+  "version": "1.0.0",
+  "description": "Proyecto-AppRoblesDeLaLaguna",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "ejecutar":"node ./dist/index.js",
+    "start":"npm run build && npm run ejecutar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karely2003/Proyecto_ProgramacionII.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karely2003/Proyecto_ProgramacionII/issues"
+  },
+  "homepage": "https://github.com/Karely2003/Proyecto_ProgramacionII#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.2",
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  }
+}
