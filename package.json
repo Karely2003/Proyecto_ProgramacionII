@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "ejecutar":"node ./dist/index.js",
-    "start":"npm run build && npm run ejecutar"
+    "ejecutar": "node ./dist/index.js",
+    "start": "npm run build && npm run ejecutar"
   },
   "repository": {
     "type": "git",
@@ -20,10 +20,13 @@
   },
   "homepage": "https://github.com/Karely2003/Proyecto_ProgramacionII#readme",
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "express": "^5.1.0"
   },
   "devDependencies": {
+    "@tsconfig/node20": "^20.1.6",
     "@tsconfig/node22": "^22.0.2",
+    "@types/express": "^5.0.3",
     "@types/node": "^24.3.0",
     "typescript": "^5.9.2"
   }
